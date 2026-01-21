@@ -146,7 +146,7 @@ CallbackReturn ArmHardwareInterface::on_activate(const rclcpp_lifecycle::State &
 		{
 				RCLCPP_WARN(
 					rclcpp::get_logger("ArmHardware"),
-					"error nigger: %s", e.what()
+					"error: %s", e.what()
 				);
 				return CallbackReturn::ERROR;
 		}
